@@ -19,13 +19,9 @@ namespace AutoMaster
 	{
 		public Cadastro()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
+			
 			InitializeComponent();
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
+			
 		}
 		void ComboBox1SelectedValueChanged(object sender, EventArgs e)
 		{
@@ -50,6 +46,8 @@ namespace AutoMaster
 		void CadastroLoad(object sender, EventArgs e)
 		{
 			this.Size = new Size(479, 719);
+			richTextBox1.LoadFile("Usuarios.txt", RichTextBoxStreamType.PlainText);
+			
 		}
 		void CadastrarUsuarioClick(object sender, EventArgs e)
 		{
@@ -59,7 +57,20 @@ namespace AutoMaster
 			string cargo = cargoComboBox.Text.ToString();
 			string turno = TurnoComboBox.Text.ToString();
 			
-			richTextBox1.Text += nome + "\t" + cpf + "\t" + telefone + "\t" + cargo + "\t" + turno + "\n";
+			richTextBox1.Text += nome + "&" + cpf + "&" + telefone + "&" + cargo + "&" + turno + "\n";
+			richTextBox1.SaveFile("Usuarios.txt", RichTextBoxStreamType.PlainText);
+		}
+		void Button1Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+		void CadastroFormClosed(object sender, FormClosedEventArgs e)
+		{
+	
+		}
+		void CadastroFormClosing(object sender, FormClosingEventArgs e)
+		{
+	
 		}
 	}
 }

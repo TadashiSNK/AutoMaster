@@ -7,3 +7,5 @@ C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug
 C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.exe
 C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.pdb
 C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.Cadastro.resources
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.Carros.resources
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.OrdemDeServico.resources

@@ -16,8 +16,9 @@ namespace AutoMaster
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button userbtn;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button cadastrarCarro;
+		private System.Windows.Forms.Button ordemServico;
+		private System.Windows.Forms.Button button1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -43,8 +44,9 @@ namespace AutoMaster
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.userbtn = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
+			this.cadastrarCarro = new System.Windows.Forms.Button();
+			this.ordemServico = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -77,39 +79,59 @@ namespace AutoMaster
 			this.userbtn.UseVisualStyleBackColor = false;
 			this.userbtn.Click += new System.EventHandler(this.UserbtnClick);
 			// 
-			// button2
+			// cadastrarCarro
 			// 
-			this.button2.BackColor = System.Drawing.Color.MintCream;
-			this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.button2.FlatAppearance.BorderColor = System.Drawing.Color.MintCream;
-			this.button2.FlatAppearance.BorderSize = 5;
-			this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
-			this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(23, 299);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(208, 71);
-			this.button2.TabIndex = 3;
-			this.button2.Text = "Cadastrar carro";
-			this.button2.UseVisualStyleBackColor = false;
+			this.cadastrarCarro.BackColor = System.Drawing.Color.MintCream;
+			this.cadastrarCarro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.cadastrarCarro.FlatAppearance.BorderColor = System.Drawing.Color.MintCream;
+			this.cadastrarCarro.FlatAppearance.BorderSize = 5;
+			this.cadastrarCarro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
+			this.cadastrarCarro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+			this.cadastrarCarro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.cadastrarCarro.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cadastrarCarro.Location = new System.Drawing.Point(23, 299);
+			this.cadastrarCarro.Name = "cadastrarCarro";
+			this.cadastrarCarro.Size = new System.Drawing.Size(208, 71);
+			this.cadastrarCarro.TabIndex = 3;
+			this.cadastrarCarro.Text = "Cadastrar carro";
+			this.cadastrarCarro.UseVisualStyleBackColor = false;
+			this.cadastrarCarro.Click += new System.EventHandler(this.CadastrarCarroClick);
 			// 
-			// button3
+			// ordemServico
 			// 
-			this.button3.BackColor = System.Drawing.Color.MintCream;
-			this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.button3.FlatAppearance.BorderColor = System.Drawing.Color.MintCream;
-			this.button3.FlatAppearance.BorderSize = 5;
-			this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
-			this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button3.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button3.Location = new System.Drawing.Point(23, 376);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(208, 71);
-			this.button3.TabIndex = 4;
-			this.button3.Text = "Emitir ordem de Serviço";
-			this.button3.UseVisualStyleBackColor = false;
+			this.ordemServico.BackColor = System.Drawing.Color.MintCream;
+			this.ordemServico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.ordemServico.FlatAppearance.BorderColor = System.Drawing.Color.MintCream;
+			this.ordemServico.FlatAppearance.BorderSize = 5;
+			this.ordemServico.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
+			this.ordemServico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+			this.ordemServico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ordemServico.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ordemServico.Location = new System.Drawing.Point(23, 376);
+			this.ordemServico.Name = "ordemServico";
+			this.ordemServico.Size = new System.Drawing.Size(208, 71);
+			this.ordemServico.TabIndex = 4;
+			this.ordemServico.Text = "Emitir ordem de Serviço";
+			this.ordemServico.UseVisualStyleBackColor = false;
+			this.ordemServico.Click += new System.EventHandler(this.OrdemServicoClick);
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.Coral;
+			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.button1.FlatAppearance.BorderColor = System.Drawing.Color.MintCream;
+			this.button1.FlatAppearance.BorderSize = 5;
+			this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
+			this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button1.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(23, 516);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(208, 71);
+			this.button1.TabIndex = 5;
+			this.button1.Text = "Sair";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// MainForm
 			// 
@@ -117,12 +139,14 @@ namespace AutoMaster
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.WhiteSmoke;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.ClientSize = new System.Drawing.Size(904, 599);
-			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
+			this.ClientSize = new System.Drawing.Size(259, 599);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.ordemServico);
+			this.Controls.Add(this.cadastrarCarro);
 			this.Controls.Add(this.userbtn);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "MainForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "AutoMaster";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
