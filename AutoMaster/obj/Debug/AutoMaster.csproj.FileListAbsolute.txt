@@ -1,0 +1,9 @@
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\bin\Debug\AutoMaster.exe.config
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\bin\Debug\AutoMaster.exe
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\bin\Debug\AutoMaster.pdb
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.csprojResolveAssemblyReference.cache
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.MainForm.resources
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.csproj.GenerateResource.Cache
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.exe
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.pdb
+C:\Users\Tadashi\Documents\SharpDevelop Projects\AutoMaster\AutoMaster\obj\Debug\AutoMaster.Cadastro.resources
