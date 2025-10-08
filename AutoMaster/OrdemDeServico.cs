@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.IO;
 using System.Text;
+using System.Diagnostics;
 
 namespace AutoMaster
 {
@@ -111,6 +112,25 @@ namespace AutoMaster
 "<p class=\"bold\">Preco R$: " + precoText.Text + ".00" + "</p>" +
 "</div></div></body></html>";
 			htmlbox.SaveFile("OS.html", RichTextBoxStreamType.PlainText);
+			
+			
+			string filePath = @"OS.html"; // your file path
+
+        try
+        {
+            // Opens the file in the default browser
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = filePath,
+                UseShellExecute = true
+            });
+        }
+        catch (System.Exception ex)
+        {
+            Console.WriteLine("Error opening file: " + ex.Message);
+        }
+			
+			
 		}
 		
 	}
